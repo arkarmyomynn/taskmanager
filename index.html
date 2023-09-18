@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventmaker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="read()">
+    <div class="header">
+        <h1>Welcome to Task Manager</h1>
+    </div>
+
+    <form action="" class="taskadd">
+
+        <input type="text" placeholder="Type Task Name" id="taskname">
+        <div class="buttons">
+        <!-- <input type="date" name="date" id="date" placeholder="Date"> -->
+        <input type="time" name="time" id="time" Placeholder="Time">
+        <input type="button" value="Add Task" id="btn" onclick="addtask()">
+        <input type="button" value="Delete All" id="btn" onclick="del()">
+
+        </div>
+
+    </form>
+    <div class="data">
+    <table id="table">
+       
+
+        
+        
+        
+    </table>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    word-spacing: 0.5px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+
+}
+:root{
+    --bg-color:black;
+    --font-color:black;
+    --s-bg-color:white;
+    --s-font-color:white;
+    --hover-color:rgb(255, 165, 165);
+}
+
+body {
+    background-color: var(--s-bg-color);
+    position: fixed;
+}
+.header{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--s-font-color);
+}
+.taskadd {
+    width: 99vw;
+    height:10vh;
+    border: 1px solid var(--bg-color);
+    margin:5px auto;
+    border-radius: 5px;
+}
+
+#taskname {
+    width: 95%;
+    border: 1px solid var(--bg-color);
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 50%;
+    border-radius: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#date{
+    width:30%;
+    border-radius: 5px;
+    border: 1px solid var(--bg-color);
+    font-size: 70%;
+}
+#time{
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid var(--bg-color);
+    font-size: 70%;
+
+}
+#btn{
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid var(--bg-color);
+    font-size: 70%;
+    outline: none;
+    background-color: aliceblue;
+    padding: 2px 0;
+}
+#checkbox {
+    width:10px;
+}
+.data {
+    width: 98vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    display:block;
+}
+#table {
+    width:97%;
+    margin: auto;
+    border: 1px solid var(--bg-color);    
+}
+tr{
+    height:40px;
+    /* display: flex; */
+    /* justify-content:space-between; */
+    align-items: center;
+    
+    
+}
+tr td {
+    font-size: 70%;
+    
+}
+/* #taskName{
+    width: 160px;
+} */
+#del {
+    /* border: 1px solid var(--bg-color); */
+    text-align: center;
+    cursor: pointer;
+    /* border-radius: 20px; */
+    /* font-size: 50%; */
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+    accent-color: var(--bg-color);
+    font-size: 35px;
+    /* border-radius: 50%; */
+}
